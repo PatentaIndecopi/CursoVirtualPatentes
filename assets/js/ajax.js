@@ -1,11 +1,12 @@
-function textAjax(){
+function htmlAjax(nombreArchivo, idhtml){
+    
     const request= new XMLHttpRequest();
-    const url='./contenidosh.html';
+    const url='./'+nombreArchivo;
 
     request.onreadystatechange=function(){
         if(this.readyState==4 && this.status==200){
             
-            document.getElementById('container').innerHTML=this.responseText;
+            document.getElementById(idhtml).innerHTML=this.responseText;
             
         }
     }
