@@ -24,3 +24,11 @@ playback timings (ms):
   load_resource: 120.351 (2)
   PetaboxLoader3.resolve: 89.504 (2)
 */
+
+.sp-menu-item, .nav .menu li{
+  cursor: pointer;
+}
+
+.menu li{
+  cursor: pointer;
+}
